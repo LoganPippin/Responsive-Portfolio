@@ -1,6 +1,11 @@
 body{
-    background-color: darkgray;
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg");
+    
+    background-repeat: no-repeat;
+    background-color: #cccccc;
 }
-.row{
-    background-color: white;
+
+#sticky-footer {
+  flex-shrink: 0;
 }
+
