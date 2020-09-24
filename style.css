@@ -1,7 +1,7 @@
 body{
     background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg");
     
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color: #cccccc;
 }
 
@@ -9,3 +9,19 @@ body{
   flex-shrink: 0;
 }
 
+@media screen and ( max-width: 1200px ){
+  img.responsive { width: 300px; }
+  img.responsive { height: 300px; }
+}
+@media screen and ( max-width: 992px ){
+  img.responsive { width: 250px; }
+  img.responsive { height: 250px; }
+}
+@media screen and ( max-width: 768px ){
+  img.responsive { width: 225px; }
+  img.responsive { height: 225px; }
+}
+@media screen and ( max-width: 400px ){
+  img.responsive { width: 200px; }
+  img.responsive { height: 200px; }
+}
