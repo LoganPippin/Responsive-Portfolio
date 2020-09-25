@@ -5,15 +5,15 @@ body{
     background-color: #cccccc;
 }
 
-#sticky-footer {
-  flex-shrink: 0;
+@media screen and ( min-width: 1200px ){
+  img.responsive { width: 300px; }
+  img.responsive { height: 300px; }
 }
-
 @media screen and ( max-width: 1200px ){
   img.responsive { width: 300px; }
   img.responsive { height: 300px; }
 }
-@media screen and ( max-width: 992px ){
+@media screen and ( max-width: 992px){
   img.responsive { width: 250px; }
   img.responsive { height: 250px; }
 }
