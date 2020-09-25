@@ -4,7 +4,13 @@ body{
     background-repeat: repeat;
     background-size: 2560px 1080px;
 }
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
 @media screen and ( min-width: 1200px ){
   img.responsive { width: 300px; }
   img.responsive { height: 300px; }
