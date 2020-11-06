@@ -1,68 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Logan Pippin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./contact.html"> Contact <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html"> About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> Portfolio <span class="sr-only">(current)</span></a>
-                 </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="#">Logan Pippin</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html">
+              Contact <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">
+              About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              Portfolio <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <main class="container">
-
-        <div class="row mt-5 ml-1 text-white">
-            <div class="col-12 "><h1>Portfolio</h1></div>
+      <div class="row mt-5 ml-1 text-white">
+        <div class="col-12"><h1>Portfolio</h1></div>
+      </div>
+      <div class="row mt-4 ml-1">
+        <div class="col-12 col-md-12 col-lg-4 pt-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Assests/WDS.png"
+              class="card-img-top"
+              alt="Work Day Planner"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Work Day Planner</h5>
+              <p class="card-text">
+                This is a simple Planner that allows you to save events in local
+                storage and keeps track of time and changes the color of the
+                time blocks depending on the current time.
+              </p>
+              <p class="card-text">
+                link:
+                <a href="https://loganpippin.github.io/05_DayPlanner/"
+                  >https://loganpippin.github.io/05_DayPlanner/</a
+                >
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="row mt-4 ml-1">
-            <div class="col-12 col-md-12 col-lg-4 pt-4"><img class="rounded img-fluid" src="https://via.placeholder.com/350" alt=""></div>
-            <div class="col-12 col-md-12 col-lg-4 pt-4"><img class="rounded img-fluid" src="https://via.placeholder.com/350" alt=""></div>
+        <div class="col-12 col-md-12 col-lg-4 pt-4">
+          <div class="card" style="width: 18rem">
+            <img
+              class="rounded img-fluid"
+              src="./Assests/WA.png"
+              alt="Weather App"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Weather App</h5>
+              <p class="card-text">
+                This is a web application that allows the user to search a city
+                and then displays the current weather conditions and a 5 day
+                forecast it also stores your searches in local storage so you
+                can revist a previous search.
+              </p>
+              <p class="card-text">
+                link:
+                <a href="https://loganpippin.github.io/06_WeatherApp/"
+                  >https://loganpippin.github.io/06_WeatherApp/</a
+                >
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="row mt-1 ml-1">
-            <div class="col-12 col-md-12 col-lg-4 pt-4"><img class="rounded img-fluid" src="https://via.placeholder.com/350" alt=""></div>
-            <div class="col-12 col-md-12 col-lg-4 pt-4"><img class="rounded img-fluid" src="https://via.placeholder.com/350" alt=""></div>
+      </div>
+      <div class="row mt-1 ml-1">
+        <div class="col-12 col-md-12 col-lg-4 pt-4">
+          <div class="card" style="width: 18rem">
+            <img
+              class="rounded img-fluid"
+              src="./Assests/GDF.png"
+              alt="Game Data Finder Search Engine"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Game Data Finder</h5>
+              <p class="card-text">
+                This a simple search engine that I created with the help of two
+                of my classmates Beth Spencer and Parth Patel, it allows the
+                user to search for a game and then displays information about
+                the searched game.
+              </p>
+              <p class="card-text">
+                link:
+                <a href="https://loganpippin.github.io/GameDataFinder/"
+                  >https://loganpippin.github.io/GameDataFinder/</a
+                >
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="row mt-1 ml-1 mb-5">
-            <div class="col-12 col-md-12 col-lg-4 pt-4"><img class="rounded img-fluid" src="https://via.placeholder.com/350" alt=""></div>
+        <div class="col-12 col-md-12 col-lg-4 pt-4">
+          <div class="card" style="width: 18rem">
+            <img
+              class="rounded img-fluid"
+              src="./Assests/PG.png"
+              alt="Password Generator"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <p class="card-text">
+                This is a website that allows you to select different characters
+                and the password length and then generates a password based on
+                the user inputed specifications.
+              </p>
+              <p class="card-text">
+                link:
+                <a href="https://loganpippin.github.io/03-PasswordGenerator/"
+                  >https://loganpippin.github.io/03-PasswordGenerator/</a
+                >
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="row mt-1 ml-1 mb-5">
+        <div class="col-12 col-md-12 col-lg-4 pt-4">
+          <div class="card" style="width: 18rem">
+            <img
+              class="rounded img-fluid"
+              src="./Assests/CQ.png"
+              alt="Code Quiz"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Code Quiz</h5>
+              <p class="card-text">
+                This is a little quiz about coding that keeps track of your time
+                and subtracts time for each incorrect anwser and then allows you
+                to enter a name and keeps a highscore in the local storage.
+              </p>
+              <p class="card-text">
+                link:
+                <a href="https://loganpippin.github.io/04_CodeQuiz/"
+                  >https://loganpippin.github.io/04_CodeQuiz/</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <footer class="footer py-4 bg-dark text-white-50">
-        <div class="container text-center">
-          <small>Copyright &copy; Logan Pippin</small>
-        </div>
+    <footer class="footer mt-auto py-4 bg-dark text-white-50">
+      <div class="container">
+        <small>Copyright &copy; Logan Pippin</small>
+        <a href="https://github.com/LoganPippin"
+          ><img
+            class="icon"
+            src="./Assests/github-128.png"
+            alt="GitHub Profile"
+        /></a>
+        <a href="https://www.linkedin.com/in/logan-pippin-3140371b5/"
+          ><img
+            class="icon"
+            src="./Assests/square-linkedin-128.png"
+            alt="LinkedIn Profile"
+        /></a>
+      </div>
     </footer>
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
-</body>
+  </body>
 </html>
