@@ -10,6 +10,6 @@ https://loganpippin.github.io/Responsive-Portfolio/
 
 ## ScreenShot
 
-![password generator main](./Assets/pass1.png?raw=true)
-![password generator main](./Assets/pass1.png?raw=true)
-![password generator main](./Assets/pass1.png?raw=true)
+![portfolio main](./Assests/S1.png)
+![projects](./Assests/S2.png)
+![contact](./Assests/S3.png)
